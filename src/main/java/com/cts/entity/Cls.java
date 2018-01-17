@@ -5,7 +5,7 @@ import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 
 /**
- * Created by LARK on 2018/01/17
+ * Created by Liulisen on 2018/01/17
  */
 
 @Entity
