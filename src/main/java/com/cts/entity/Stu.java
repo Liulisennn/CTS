@@ -18,7 +18,7 @@ public class Stu implements Serializable {
 
     private int sno;
 
-    @Pattern(regexp = "^[\\w\\u4e00-\\u9fa5]{2,30}$",message = "员工姓名必须为长度在2~30位的字母数字或中文组成")
+    @Pattern(regexp = "^[\\w\\u4e00-\\u9fa5]{2,30}$",message = "姓名必须为长度在2~30位的字母数字或中文组成")
     private String sname;
 
     @Range(min = 18,max = 60,message = "年龄必须是18~60之间的整数")

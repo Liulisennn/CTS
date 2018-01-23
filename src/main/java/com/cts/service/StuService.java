@@ -59,7 +59,6 @@ public class StuService {
 
     /**
      * 通过id获取学生
-     *
      * @param sno 学生id
      * @return 学生对象
      */
